@@ -1,0 +1,47 @@
+.review-item {
+  width: 571px;
+  border: 1px solid #95a0a7;
+  border-radius: 8px;
+  margin: 25px auto;
+  padding: 8px 23px 8px 8px;
+}
+.review-item img {
+  width: 91px;
+  height: 91px;
+  border-radius: 8px;
+}
+.review-content {
+  display: flex;
+  align-items: center;
+}
+.review-content h4 {
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.0015em;
+  color: #1c2b35;
+}
+.review-content p {
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.0025em;
+  color: #1c2b35;
+}
+.review-content .content {
+  margin-left: 15px;
+  flex-grow: 1;
+}
+.content .spacing {
+  margin: 8px 0px;
+}
+.review-content .content .price {
+  color: #ff9900;
+}
+.review-content .button-style {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: rgba(235, 87, 87, 0.3);
+}
+.review-content .button-style .icon-style {
+  color: #eb5757;
+}
