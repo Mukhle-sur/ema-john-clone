@@ -26,6 +26,7 @@
 
 .Cart-button {
     margin-top: 50px;
+    padding: 0px 15px;
 }
 
 .Cart-button button {
@@ -33,4 +34,22 @@
     border-radius: 4px;
     padding-left: 23px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.Cart-button .Review-btn{
+    text-align: center;
+    margin-top: 15px;
+    background: #FF9900;
+    border-radius: 4px;
+    padding-left: 23px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Cart-button .Review-btn a{
+    color: white;
 }
